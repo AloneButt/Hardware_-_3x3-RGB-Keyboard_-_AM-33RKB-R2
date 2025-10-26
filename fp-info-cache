@@ -1,4 +1,4 @@
-25015591440728482
+25019214698457291
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64680,13 +64680,6 @@ ARCHMASTER Logo 20mm
 0
 0
 Logos
-ARCHMASTER Logo 30mm
-
-
-0
-0
-0
-Logos
 ARCHMASTER QR 5mm
 
 
@@ -94402,11 +94395,25 @@ Soso
 9
 9
 Soso
+1588BS
+
+
+0
+16
+16
+Soso
 B5819WS
 
 
 0
 2
+2
+Soso
+BATTERY holder CR2032 SMD
+
+
+0
+5
 2
 Soso
 BQ24040DSQR
@@ -94422,6 +94429,13 @@ BQ24090DGQT
 0
 16
 16
+Soso
+DIP switch 1P THT
+
+
+0
+2
+2
 Soso
 GY-521
 

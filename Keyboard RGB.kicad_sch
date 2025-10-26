@@ -5,141 +5,6 @@
 	(uuid "fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -257,6 +122,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1482,216 +1429,329 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 116.84 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e5d643b-d9c7-4fe8-8025-fec3c7ab614f")
-	)
-	(junction
-		(at 205.74 115.57)
+		(at 220.98 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21792df7-16d8-4c0a-b97d-b2896adcbaee")
 	)
 	(junction
-		(at 88.9 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d2c844b-c639-4fcd-9cd8-e0f41087bf11")
-	)
-	(junction
-		(at 116.84 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34446f10-7088-476f-bf25-c39d7e595cf8")
-	)
-	(junction
-		(at 83.82 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37eae39a-77c8-459e-9635-8b4e42c9e1c7")
-	)
-	(junction
-		(at 101.6 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38eecc5a-8de4-4ed7-8819-ff30acc57837")
-	)
-	(junction
-		(at 101.6 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41a9123b-e66f-4685-a4e2-8b12d7bfe457")
-	)
-	(junction
-		(at 210.82 147.32)
+		(at 226.06 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5014a85f-5f3a-4aeb-a282-b18200e04758")
 	)
 	(junction
-		(at 223.52 109.22)
+		(at 238.76 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5077edbf-88c4-48e2-8944-b2cf79bad29e")
 	)
 	(junction
-		(at 193.04 96.52)
+		(at 208.28 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5081fa66-f2eb-4148-ad1e-885cd109891e")
 	)
 	(junction
-		(at 116.84 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54b7c480-c9a4-413e-9055-b04c367bd72d")
-	)
-	(junction
-		(at 116.84 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55b37ab5-14c6-473d-a9fc-98e2b2008a5a")
-	)
-	(junction
-		(at 223.52 128.27)
+		(at 238.76 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60597907-d236-4d38-89bf-e01eaeef6b28")
 	)
 	(junction
-		(at 88.9 107.95)
+		(at 68.58 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "623bb0c0-1bf8-4c2c-a0d4-bb8c5e484471")
+		(uuid "61a0da50-211c-4d33-a24b-46a16fd0c20a")
 	)
 	(junction
-		(at 218.44 115.57)
+		(at 233.68 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70a31f61-e257-4f41-865c-13b971a3d744")
 	)
 	(junction
-		(at 210.82 128.27)
+		(at 226.06 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "776d7fe3-a542-4d64-81c2-c458aa423c12")
 	)
 	(junction
-		(at 78.74 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a1fea7e-2d11-4d5a-a5a5-415d4f5f42c9")
-	)
-	(junction
-		(at 101.6 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86adde24-f010-4660-9bcf-0eef5324d4b2")
-	)
-	(junction
-		(at 101.6 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90f14cc1-8929-4507-9b79-4aa615c3d701")
-	)
-	(junction
-		(at 218.44 96.52)
+		(at 233.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a08227db-c8b7-4908-b90f-9dfe73a48a18")
 	)
 	(junction
-		(at 223.52 147.32)
+		(at 238.76 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a848bdf3-b3bc-46c1-8456-c503741d0dff")
 	)
 	(junction
-		(at 116.84 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac0fe966-c143-4245-9bd3-5096072b15a2")
-	)
-	(junction
-		(at 78.74 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba6c668e-baf8-46b7-9335-071f1f67ce06")
-	)
-	(junction
-		(at 205.74 96.52)
+		(at 220.98 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb9d423e-5ee5-48f6-ad14-0a7fce434a31")
 	)
 	(junction
-		(at 116.84 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfdeb573-0a55-472a-9bbc-789cbed6e6ff")
-	)
-	(junction
-		(at 82.55 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d45aff2f-59d6-490e-b5c4-33c136a7c4fb")
-	)
-	(junction
-		(at 101.6 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4a7fae1-1d55-466b-8e8f-653add3bcc60")
-	)
-	(junction
-		(at 210.82 109.22)
+		(at 226.06 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db14ff6f-25e5-4c23-ad22-be54ec225920")
 	)
 	(junction
-		(at 101.6 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea4fa923-c994-4cbf-a0b1-c2d936e6039e")
-	)
-	(junction
-		(at 193.04 115.57)
+		(at 208.28 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9935f1c-ad4e-43be-aaf3-335cb1bbbc3a")
 	)
-	(junction
-		(at 83.82 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe64083c-65fe-4518-9926-734261ef71e7")
-	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c2bcc7-db8e-486d-a5eb-bf50ad4b3001")
-	)
-	(wire
-		(pts
-			(xy 101.6 86.36) (xy 116.84 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0405b9f0-defa-4089-ace6-9042ba1c8356")
-	)
-	(wire
-		(pts
-			(xy 39.37 118.11) (xy 43.18 118.11)
+			(xy 68.58 81.28) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1701,37 +1761,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 90.17) (xy 34.29 100.33)
+			(xy 62.23 55.88) (xy 62.23 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b209954-9ea1-4b9a-88b2-df0c67bce9de")
+		(uuid "0ae9aba8-a742-4ddb-a989-5e166661fd4c")
 	)
 	(wire
 		(pts
-			(xy 88.9 111.76) (xy 101.6 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14afd8c0-58a6-4b0c-a276-a54530c8d9bc")
-	)
-	(wire
-		(pts
-			(xy 88.9 86.36) (xy 101.6 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15402d56-5283-4332-937b-423437ad0e64")
-	)
-	(wire
-		(pts
-			(xy 36.83 110.49) (xy 43.18 110.49)
+			(xy 57.15 73.66) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 43.18 123.19)
+			(xy 68.58 86.36) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1791,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 43.18 128.27)
+			(xy 68.58 91.44) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 128.27) (xy 223.52 128.27)
+			(xy 252.73 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 85.09 128.27)
+			(xy 111.76 91.44) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 128.27) (xy 210.82 128.27)
+			(xy 213.36 97.79) (xy 226.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 223.52 109.22)
+			(xy 226.06 78.74) (xy 238.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 147.32) (xy 223.52 147.32)
+			(xy 226.06 116.84) (xy 238.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1811,37 +1851,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 88.9 107.95)
+			(xy 62.23 60.96) (xy 46.99 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ac77baf-6660-46f0-abd7-4f447c52e19a")
+		(uuid "3ce40865-f83e-4f77-b2e9-bce3c85e79fc")
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 101.6)
+			(xy 118.11 68.58) (xy 118.11 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45f03a9b-3420-4ff6-932c-b32184f89698")
+		(uuid "41e71354-57a8-4c3b-8cdb-167f9e596339")
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 78.74 107.95)
+			(xy 72.39 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49907a92-3f60-4ec7-b29c-0bf0a287feef")
+		(uuid "49f51b06-89a1-4412-945f-0476ec9011a9")
 	)
 	(wire
 		(pts
-			(xy 91.44 132.08) (xy 91.44 144.78)
+			(xy 129.54 95.25) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 128.27) (xy 74.93 128.27)
+			(xy 102.87 91.44) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 109.22) (xy 223.52 109.22)
+			(xy 252.73 78.74) (xy 238.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 128.27)
+			(xy 123.19 53.34) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 86.36) (xy 218.44 96.52)
+			(xy 233.68 55.88) (xy 233.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1891,27 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 107.95) (xy 88.9 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e1e037-9d0b-4583-a71a-547dfd74d1b0")
-	)
-	(wire
-		(pts
-			(xy 88.9 111.76) (xy 88.9 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58be19ef-ff78-4b1f-926b-6528f0cbe9a9")
-	)
-	(wire
-		(pts
-			(xy 198.12 109.22) (xy 210.82 109.22)
+			(xy 213.36 78.74) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1921,17 +1941,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 132.08 101.6)
+			(xy 170.18 71.12) (xy 170.18 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61e37415-da60-4552-89ff-eac75e538b6f")
+		(uuid "62cbbae4-33cf-419c-9727-01eddae7c281")
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 91.44 119.38)
+			(xy 129.54 68.58) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 115.57) (xy 205.74 134.62)
+			(xy 220.98 85.09) (xy 220.98 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1951,27 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 90.17) (xy 34.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b988c66-5ca9-4ae3-90bd-f105ea00f918")
-	)
-	(wire
-		(pts
-			(xy 30.48 97.79) (xy 40.64 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707a2c88-f977-4c86-8acc-6cf29cd4b8bd")
-	)
-	(wire
-		(pts
-			(xy 237.49 147.32) (xy 223.52 147.32)
+			(xy 252.73 116.84) (xy 238.76 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1981,27 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 152.4) (xy 101.6 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77cd43c9-6340-4e7c-8087-065849bb3500")
-	)
-	(wire
-		(pts
-			(xy 78.74 107.95) (xy 82.55 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79266270-de29-4290-98a1-d12ffc7d7a08")
-	)
-	(wire
-		(pts
-			(xy 30.48 102.87) (xy 34.29 102.87)
+			(xy 46.99 66.04) (xy 54.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 102.87) (xy 34.29 113.03)
+			(xy 54.61 66.04) (xy 54.61 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 115.57) (xy 43.18 115.57)
+			(xy 68.58 78.74) (xy 72.39 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 96.52) (xy 218.44 115.57)
+			(xy 233.68 66.04) (xy 233.68 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 43.18 125.73)
+			(xy 68.58 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2051,37 +2031,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 107.95) (xy 82.55 90.17)
+			(xy 54.61 63.5) (xy 46.99 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84715bd1-497d-419d-85d3-2daf5ae78b2c")
+		(uuid "8af0d93b-cfc5-4c95-bd85-70ce9cab669a")
 	)
 	(wire
 		(pts
-			(xy 83.82 127) (xy 83.82 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86305637-2f64-4f0a-a69a-e075909cc577")
-	)
-	(wire
-		(pts
-			(xy 116.84 137.16) (xy 132.08 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8cde59-0660-4308-9980-ec17fda6b663")
-	)
-	(wire
-		(pts
-			(xy 142.24 93.98) (xy 142.24 106.68)
+			(xy 180.34 53.34) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2091,17 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 97.79) (xy 40.64 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e163451-78fa-4d01-b46a-401cefb0cffc")
-	)
-	(wire
-		(pts
-			(xy 193.04 115.57) (xy 193.04 134.62)
+			(xy 208.28 85.09) (xy 208.28 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 91.44 106.68)
+			(xy 180.34 68.58) (xy 129.54 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2121,17 +2071,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 101.6 101.6)
+			(xy 102.87 66.04) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92a486ec-2669-442e-b738-3d9d0749fca0")
+		(uuid "96d89b69-232e-4d11-9260-f270396ca3bc")
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 142.24 119.38)
+			(xy 177.8 80.01) (xy 180.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2141,7 +2091,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 93.98 93.98)
+			(xy 154.94 71.12) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c07a140-1ac3-404b-8fdf-46164d878b59")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2151,17 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 152.4) (xy 116.84 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab99c990-4fc2-4803-870e-3807083dcdf5")
-	)
-	(wire
-		(pts
-			(xy 198.12 147.32) (xy 210.82 147.32)
+			(xy 213.36 116.84) (xy 226.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2171,17 +2121,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 116.84 127)
+			(xy 72.39 71.12) (xy 68.58 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "affc332d-4fc2-4892-a32f-17549453b299")
+		(uuid "aeaca2cf-7c05-43d9-8e0b-e3a9a4d9255e")
 	)
 	(wire
 		(pts
-			(xy 91.44 144.78) (xy 93.98 144.78)
+			(xy 129.54 107.95) (xy 132.08 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 43.18 120.65)
+			(xy 68.58 83.82) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2201,37 +2151,37 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 132.08 86.36)
+			(xy 139.7 71.12) (xy 139.7 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b73779fd-cace-4220-be3e-2db6f39cff31")
+		(uuid "bcbdf2cb-6bb7-44f6-9aa3-cf976d28e791")
 	)
 	(wire
 		(pts
-			(xy 116.84 152.4) (xy 132.08 152.4)
+			(xy 68.58 68.58) (xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9b4f311-4e4c-46dc-91e9-4f6caaf640ba")
+		(uuid "bf5d2b99-539b-40f5-81dc-4b9c5ad7fe00")
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 43.18 105.41)
+			(xy 118.11 66.04) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c28d8be4-8b86-4b8b-8390-a79bf285f77b")
+		(uuid "c88daf9e-6922-4635-a363-d5734a3ae118")
 	)
 	(wire
 		(pts
-			(xy 218.44 115.57) (xy 218.44 134.62)
+			(xy 233.68 85.09) (xy 233.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 96.52) (xy 193.04 115.57)
+			(xy 208.28 66.04) (xy 208.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 205.74 96.52)
+			(xy 220.98 55.88) (xy 220.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2261,17 +2211,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 116.84 137.16)
+			(xy 62.23 55.88) (xy 66.04 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf4ec75e-05f2-4845-ac67-1c3346a876db")
+		(uuid "cfb9eafd-8c75-4874-a28e-b9c6cfe04ca6")
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 93.98 119.38)
+			(xy 129.54 80.01) (xy 132.08 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 128.27) (xy 223.52 128.27)
+			(xy 226.06 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2291,17 +2241,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 101.6 137.16)
+			(xy 102.87 68.58) (xy 118.11 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4c71cd2-aca7-4aab-a597-b228e789fab7")
+		(uuid "d47c1d21-613f-472b-a91f-c288efa76798")
 	)
 	(wire
 		(pts
-			(xy 193.04 86.36) (xy 193.04 96.52)
+			(xy 102.87 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f5eee2-cfba-4213-99f8-bdb20392dcb3")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 208.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2311,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 105.41) (xy 36.83 105.41)
+			(xy 46.99 68.58) (xy 57.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2321,47 +2281,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 127) (xy 101.6 127)
+			(xy 68.58 67.31) (xy 64.77 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da588d96-1cd9-4ab5-ab1f-b7368f6c6f02")
+		(uuid "de9c5f6c-a933-4349-82ff-b95f3417ebab")
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 83.82 127)
+			(xy 68.58 71.12) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df0d77e8-1513-476a-a366-6ed71439271e")
+		(uuid "e606e006-6c68-4b7d-8767-a5253633d3cf")
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 30.48 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e00c8489-5909-48f8-97a1-35824d4ca367")
-	)
-	(wire
-		(pts
-			(xy 116.84 127) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5c6d9d5-0529-4f84-84bd-47e533d22d21")
-	)
-	(wire
-		(pts
-			(xy 34.29 113.03) (xy 43.18 113.03)
+			(xy 54.61 76.2) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 132.08) (xy 91.44 132.08)
+			(xy 180.34 95.25) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2381,27 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee67f46d-8826-4991-845a-789610200011")
-	)
-	(wire
-		(pts
-			(xy 88.9 107.95) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc838e5-a8a9-4e22-ac7f-97e316008bb9")
-	)
-	(wire
-		(pts
-			(xy 139.7 93.98) (xy 142.24 93.98)
+			(xy 177.8 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 119.38) (xy 142.24 132.08)
+			(xy 180.34 80.01) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2421,17 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 102.87) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d224fd-9a20-4708-a154-e94ebf37ffeb")
-	)
-	(wire
-		(pts
-			(xy 205.74 96.52) (xy 205.74 115.57)
+			(xy 220.98 66.04) (xy 220.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2441,17 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 116.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e659c1-5ee2-4c43-ba5e-6365a184c98a")
-	)
-	(wire
-		(pts
-			(xy 36.83 105.41) (xy 36.83 110.49)
+			(xy 57.15 68.58) (xy 57.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2459,19 +2359,130 @@
 		)
 		(uuid "fa13a1eb-a272-4d7b-b456-69c995fc93ec")
 	)
-	(wire
-		(pts
-			(xy 73.66 102.87) (xy 78.74 102.87)
+	(label "Vcc"
+		(at 107.95 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "0520cd37-fb06-432b-b799-ade01133fe51")
+	)
+	(label "Vcc"
+		(at 154.94 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(uuid "fe9daf92-3462-464c-81b6-9f976fbbafec")
+		(uuid "67c09cc5-1eaa-4dc6-bb9c-1c726ff471a8")
+	)
+	(label "Vcc"
+		(at 54.61 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77c7caff-6ba9-4afb-b07b-69765259b7e8")
+	)
+	(label "Vcc"
+		(at 154.94 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d928070-87e6-4e25-a665-350302820c4f")
+	)
+	(label "Vcc"
+		(at 170.18 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91a76d8b-4d0b-4eaf-a2de-64f973fc5bc5")
+	)
+	(label "Vcc"
+		(at 154.94 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94ac2c57-2966-4133-a16c-7f52325d091b")
+	)
+	(label "Vcc"
+		(at 139.7 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bee277d-cd9b-4ee0-b3bb-0b8c52c3ee37")
+	)
+	(label "Vcc"
+		(at 139.7 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb911fc5-b599-4f88-9cfe-c1e2a32c1baf")
+	)
+	(label "Vcc"
+		(at 170.18 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e812b26a-bf10-4d74-907d-8affaf276bc4")
+	)
+	(label "Vcc"
+		(at 170.18 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9d812f5-5372-4510-8f47-6a9726e28db0")
+	)
+	(label "Vcc"
+		(at 139.7 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3a2edbb-3829-45a1-8c92-575a01452bde")
 	)
 	(global_label "Column 3"
 		(shape input)
-		(at 39.37 120.65 180)
+		(at 68.58 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2481,7 +2492,7 @@
 		)
 		(uuid "07c1424f-27e7-452e-9514-56fd04c7f6a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.1322 120.65 0)
+			(at 56.3422 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2504,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 39.37 123.19 180)
+		(at 68.58 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2503,7 +2514,7 @@
 		)
 		(uuid "18d9f1c1-540a-4e09-b983-0417c75fbded")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 123.19 0)
+			(at 59.6682 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2526,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 237.49 109.22 0)
+		(at 252.73 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2525,7 +2536,7 @@
 		)
 		(uuid "2a1e5134-fd40-4e1f-befa-7d6d2d3d2e8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4018 109.22 0)
+			(at 261.6418 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2548,7 @@
 	)
 	(global_label "Column 2"
 		(shape input)
-		(at 39.37 118.11 180)
+		(at 68.58 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2547,7 +2558,7 @@
 		)
 		(uuid "464be408-31f5-4193-b7b5-e0caa8817fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.1322 118.11 0)
+			(at 56.3422 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2570,7 @@
 	)
 	(global_label "Column 1"
 		(shape input)
-		(at 39.37 115.57 180)
+		(at 68.58 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2569,7 +2580,7 @@
 		)
 		(uuid "64c670dc-285b-4357-a6ff-ea6bd5ab98b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.1322 115.57 0)
+			(at 56.3422 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2592,7 @@
 	)
 	(global_label "Column 1"
 		(shape input)
-		(at 193.04 86.36 90)
+		(at 208.28 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2591,7 +2602,7 @@
 		)
 		(uuid "686e3730-9a14-4c57-828b-4aecd54ca9c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 74.1222 90)
+			(at 208.28 43.6422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2614,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 237.49 128.27 0)
+		(at 252.73 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2613,7 +2624,7 @@
 		)
 		(uuid "78afdc86-cfab-4b0a-9644-898fcad06cfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4018 128.27 0)
+			(at 261.6418 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2636,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 237.49 147.32 0)
+		(at 252.73 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2635,7 +2646,7 @@
 		)
 		(uuid "82f6fade-1342-461f-9503-8d02d729bcfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4018 147.32 0)
+			(at 261.6418 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2658,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 39.37 128.27 180)
+		(at 68.58 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2657,7 +2668,7 @@
 		)
 		(uuid "b94f2e72-bf5a-486b-8aca-9321beaa4a33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 128.27 0)
+			(at 59.6682 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2680,7 @@
 	)
 	(global_label "Column 3"
 		(shape input)
-		(at 218.44 86.36 90)
+		(at 233.68 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2679,7 +2690,7 @@
 		)
 		(uuid "d79c90bb-57f5-4c40-8140-0890fe0f642f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 74.1222 90)
+			(at 233.68 43.6422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2702,7 @@
 	)
 	(global_label "Column 2"
 		(shape input)
-		(at 205.74 86.36 90)
+		(at 220.98 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2701,7 +2712,7 @@
 		)
 		(uuid "ee8b858b-2a1f-48f2-a1d6-4bea90f7d207")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.74 74.1222 90)
+			(at 220.98 43.6422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2724,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 39.37 125.73 180)
+		(at 68.58 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2723,7 +2734,7 @@
 		)
 		(uuid "f671d421-5c59-4b42-a84c-b3b75507c8fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 125.73 0)
+			(at 59.6682 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,8 +2745,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ee7242-8a9a-496e-9689-5f54d9c5da9f")
+		(property "Reference" "#PWR06"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1db89092-0039-4bad-be95-1751dd232350")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 116.84 93.98 0)
+		(at 154.94 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2744,7 +2821,7 @@
 		(fields_autoplaced yes)
 		(uuid "038b679e-72ed-4e91-af34-b991a59ab2b1")
 		(property "Reference" "D11"
-			(at 128.27 87.6614 0)
+			(at 166.37 47.0214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2829,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 128.27 90.2014 0)
+			(at 166.37 49.5614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 118.11 101.6 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 119.38 103.505 0)
+			(at 157.48 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2857,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 107.188 0)
+			(at 156.21 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2888,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 128.27 90)
+		(at 107.95 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2820,7 +2897,7 @@
 		(fields_autoplaced yes)
 		(uuid "131e2a58-03e8-49ab-98c7-9ce85c3d55d7")
 		(property "Reference" "R1"
-			(at 78.74 121.92 90)
+			(at 107.95 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2905,7 @@
 			)
 		)
 		(property "Value" "100 R"
-			(at 78.74 124.46 90)
+			(at 107.95 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2913,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 78.74 130.048 90)
+			(at 107.95 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 128.27 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2931,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 128.27 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,78 +2955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 78.74 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19335d33-4126-449f-87d5-bc786f3ecd68")
-		(property "Reference" "C1"
-			(at 81.28 104.1462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 81.28 106.6862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31cd1aba-0ab4-46de-a4b7-badbdeae4d5d")
-		)
-		(pin "2"
-			(uuid "ddf0a6e6-037b-48ba-ba5e-cb83c47ffda8")
-		)
-		(instances
-			(project "Keyboard RGB"
-				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 132.08 144.78 0)
+		(at 170.18 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2958,7 +2965,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b0951dc-1028-4013-a4db-837bb0db5d44")
 		(property "Reference" "D18"
-			(at 143.51 138.4614 0)
+			(at 181.61 101.6314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2973,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 143.51 141.0014 0)
+			(at 181.61 104.1714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 133.35 152.4 0)
+			(at 171.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2991,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 134.62 154.305 0)
+			(at 172.72 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3001,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 133.35 157.988 0)
+			(at 171.45 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,33 +3031,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 220.98 118.11 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 106.68 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "322daaa5-5870-4c8e-a365-a364e4068f8c")
-		(property "Reference" "S6"
-			(at 220.98 110.49 0)
+		(uuid "1c8b50be-575f-4284-a6e2-414713f49d7a")
+		(property "Reference" "H2"
+			(at 40.64 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 220.98 113.03 0)
+		(property "Value" "MountingHole"
+			(at 40.64 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 220.98 118.11 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 38.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3068,199 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 118.11 0)
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec54b21-badf-49b5-9fb3-6a4e7ab5eb38")
+		(property "Reference" "#PWR010"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d90896-645a-4d47-8656-a350675e39eb")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 116.84 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf969e2-1ab0-4eec-95a6-7c9adfef8513")
+		(property "Reference" "H4"
+			(at 40.64 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.64 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 236.22 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "322daaa5-5870-4c8e-a365-a364e4068f8c")
+		(property "Reference" "S6"
+			(at 236.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 236.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +3269,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 220.98 118.11 0)
+			(at 236.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3294,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 132.08 93.98 0)
+		(at 170.18 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3102,7 +3303,7 @@
 		(fields_autoplaced yes)
 		(uuid "3967a286-10be-4708-afe5-8911d4c1f72e")
 		(property "Reference" "D12"
-			(at 143.51 87.6614 0)
+			(at 181.61 47.0214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3311,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 143.51 90.2014 0)
+			(at 181.61 49.5614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3319,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 133.35 101.6 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3329,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 134.62 103.505 0)
+			(at 172.72 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3339,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 133.35 107.188 0)
+			(at 171.45 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,8 +3369,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 170.18 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5ada0c-0aab-43a2-9b6f-751bb5d9ab11")
+		(property "Reference" "#PWR08"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4af028-f966-489a-8ef0-53c1cac928af")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 220.98 137.16 0)
+		(at 236.22 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3178,7 +3445,7 @@
 		(fields_autoplaced yes)
 		(uuid "42dfb6dd-8015-40ea-b3ac-5162b72a9a55")
 		(property "Reference" "S9"
-			(at 220.98 129.54 0)
+			(at 236.22 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3453,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 220.98 132.08 0)
+			(at 236.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3461,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 220.98 137.16 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 137.16 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3479,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 220.98 137.16 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3504,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 208.28 118.11 0)
+		(at 223.52 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3246,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "42ec8458-b9dd-4acc-892a-d60d45276de8")
 		(property "Reference" "S5"
-			(at 208.28 110.49 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3521,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 208.28 113.03 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3529,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 208.28 118.11 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 118.11 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3547,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 208.28 118.11 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,33 +3571,33 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 195.58 99.06 0)
+		(lib_id "Switch:SW_Push")
+		(at 111.76 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47b838ad-dcfa-4e3c-8e29-1189b20a4c48")
-		(property "Reference" "S1"
-			(at 195.58 91.44 0)
+		(uuid "4642ad88-2d76-46e5-b987-fafd5bbd49f3")
+		(property "Reference" "SW1"
+			(at 111.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 195.58 93.98 0)
+		(property "Value" "Boot"
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 195.58 99.06 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3606,141 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 99.06 0)
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8d8c2ff-f45f-45ef-9335-a266d19162b3")
+		)
+		(pin "1"
+			(uuid "17af77d0-34f0-43a0-8007-7ea45c50b214")
+		)
+		(instances
+			(project ""
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472e549d-b8ef-4139-b7ae-076f63026442")
+		(property "Reference" "#PWR01"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2396d16a-18cc-4635-8c95-c8283683ba4a")
+		)
+		(instances
+			(project ""
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b838ad-dcfa-4e3c-8e29-1189b20a4c48")
+		(property "Reference" "S1"
+			(at 210.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3749,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 195.58 99.06 0)
+			(at 210.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3774,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 208.28 99.06 0)
+		(at 223.52 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3382,7 +3783,7 @@
 		(fields_autoplaced yes)
 		(uuid "52587f83-b644-4ccd-a0f9-27804b32edd3")
 		(property "Reference" "S2"
-			(at 208.28 91.44 0)
+			(at 223.52 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3791,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 208.28 93.98 0)
+			(at 223.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3799,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 208.28 99.06 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 99.06 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3817,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 208.28 99.06 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3842,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:MCU_Arduino_Pro_Micro")
-		(at 58.42 114.3 0)
+		(at 87.63 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3450,7 +3851,7 @@
 		(fields_autoplaced yes)
 		(uuid "54456b9c-f1fe-4730-8dfa-c80da0e4b592")
 		(property "Reference" "U2"
-			(at 58.42 92.71 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3458,7 +3859,7 @@
 			)
 		)
 		(property "Value" "Arduino_Pro_Micro"
-			(at 58.42 95.25 0)
+			(at 87.63 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3466,7 +3867,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
-			(at 58.42 137.16 0)
+			(at 87.63 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3475,7 +3876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 177.8 90)
+			(at 114.3 140.97 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3484,7 +3885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 114.3 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3976,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 223.52 143.51 90)
+		(at 238.76 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3584,7 +3985,7 @@
 		(fields_autoplaced yes)
 		(uuid "629ed39b-a5a7-4705-886f-93ce9bb0af09")
 		(property "Reference" "D9"
-			(at 226.06 142.2399 90)
+			(at 241.3 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3994,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 226.06 144.7799 90)
+			(at 241.3 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +4003,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 223.52 143.51 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 143.51 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +4021,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 223.52 143.51 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +4030,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 223.52 143.51 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +4039,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 143.51 0)
+			(at 238.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +4064,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 198.12 143.51 90)
+		(at 213.36 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3672,7 +4073,7 @@
 		(fields_autoplaced yes)
 		(uuid "67b675cb-8d9c-495d-a574-39e9c8505721")
 		(property "Reference" "D7"
-			(at 200.66 142.2399 90)
+			(at 215.9 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +4082,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 200.66 144.7799 90)
+			(at 215.9 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 198.12 143.51 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 143.51 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +4109,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 198.12 143.51 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +4118,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 198.12 143.51 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +4127,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 143.51 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4152,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 132.08 119.38 0)
+		(at 170.18 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +4161,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c082c35-1753-49d1-a8fe-3d70f8d49066")
 		(property "Reference" "D15"
-			(at 143.51 113.0614 0)
+			(at 181.61 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +4169,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 143.51 115.6014 0)
+			(at 181.61 76.2314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +4177,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 133.35 127 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 134.62 128.905 0)
+			(at 172.72 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +4197,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 133.35 132.588 0)
+			(at 171.45 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +4228,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 208.28 137.16 0)
+		(at 223.52 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3836,7 +4237,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c81cad3-6147-4a58-9211-cd182aef4991")
 		(property "Reference" "S8"
-			(at 208.28 129.54 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4245,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 208.28 132.08 0)
+			(at 223.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +4253,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 208.28 137.16 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +4262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 137.16 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4271,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 208.28 137.16 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,33 +4295,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 195.58 137.16 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e8e9760-cff5-45da-ba7e-7746b7dab0a2")
-		(property "Reference" "S7"
-			(at 195.58 129.54 0)
+		(uuid "8256a568-bf47-4916-ac57-e5bebdf3081b")
+		(property "Reference" "H1"
+			(at 40.64 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 195.58 132.08 0)
+		(property "Value" "MountingHole"
+			(at 40.64 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 195.58 137.16 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4332,69 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 137.16 0)
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 210.82 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e8e9760-cff5-45da-ba7e-7746b7dab0a2")
+		(property "Reference" "S7"
+			(at 210.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 210.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4403,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 195.58 137.16 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4428,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 210.82 105.41 90)
+		(at 226.06 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3972,7 +4437,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0f675b3-13b2-4942-b36e-e5ec719292d0")
 		(property "Reference" "D2"
-			(at 213.36 104.1399 90)
+			(at 228.6 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4446,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 213.36 106.6799 90)
+			(at 228.6 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4455,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 210.82 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4473,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 210.82 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4482,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 210.82 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4491,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4516,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 198.12 124.46 90)
+		(at 213.36 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4060,7 +4525,7 @@
 		(fields_autoplaced yes)
 		(uuid "a312ea6c-6f01-4edd-93f1-cf33d3abe113")
 		(property "Reference" "D4"
-			(at 200.66 123.1899 90)
+			(at 215.9 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4534,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 200.66 125.7299 90)
+			(at 215.9 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4543,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 198.12 124.46 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 124.46 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4561,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 198.12 124.46 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4570,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 198.12 124.46 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4579,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 124.46 0)
+			(at 213.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,8 +4603,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a78a6fca-bd9f-46f6-94bc-ee265b2cfc13")
+		(property "Reference" "#PWR04"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85f4db0b-f78d-443b-9a2b-f91a6b5b2c09")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 101.6 144.78 0)
+		(at 139.7 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4148,7 +4679,7 @@
 		(fields_autoplaced yes)
 		(uuid "a87be5d3-7847-4697-968a-0ac384e5ef80")
 		(property "Reference" "D16"
-			(at 113.03 138.4614 0)
+			(at 151.13 101.6314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4687,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 113.03 141.0014 0)
+			(at 151.13 104.1714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4695,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 102.87 152.4 0)
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 104.14 154.305 0)
+			(at 142.24 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4715,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 102.87 157.988 0)
+			(at 140.97 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4746,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 210.82 143.51 90)
+		(at 226.06 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4224,7 +4755,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa8009bf-5f1c-4129-b121-219a7e676f41")
 		(property "Reference" "D8"
-			(at 213.36 142.2399 90)
+			(at 228.6 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4764,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 213.36 144.7799 90)
+			(at 228.6 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 210.82 143.51 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 143.51 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4791,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 210.82 143.51 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4800,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 210.82 143.51 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4809,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 143.51 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,35 +4833,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 223.52 124.46 90)
+		(lib_id "power:GND")
+		(at 139.7 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbf978ff-f485-4593-9d48-255054db73ff")
-		(property "Reference" "D6"
-			(at 226.06 123.1899 90)
+		(uuid "b00868ed-4571-4ce5-9a9a-de2556771bd7")
+		(property "Reference" "#PWR07"
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Diode"
-			(at 226.06 125.7299 90)
+		(property "Value" "GND"
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 223.52 124.46 0)
+		(property "Footprint" ""
+			(at 139.7 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4869,206 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 124.46 0)
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f950741-642a-47fd-906b-dcb092486e3e")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d2db08-f3db-44de-ad7c-9d3dde72e662")
+		(property "Reference" "#PWR011"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80bb459a-07f9-46f2-9294-f768980715e6")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbca7eb0-0c08-4629-8c63-c01fb1a2ab90")
+		(property "Reference" "#PWR02"
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f86e1b-d785-4058-b806-81d3aa43df3d")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 238.76 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf978ff-f485-4593-9d48-255054db73ff")
+		(property "Reference" "D6"
+			(at 241.3 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 241.3 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +5077,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 223.52 124.46 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +5086,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 223.52 124.46 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +5095,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 124.46 0)
+			(at 238.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,35 +5119,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 223.52 105.41 90)
+		(lib_id "power:GND")
+		(at 154.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "befbc42e-412a-41cc-be4b-56ae03bc6dcd")
-		(property "Reference" "D3"
-			(at 226.06 104.1399 90)
+		(uuid "bc57c92a-20de-4499-a504-a20db829ad09")
+		(property "Reference" "#PWR05"
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Diode"
-			(at 226.06 106.6799 90)
+		(property "Value" "GND"
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 223.52 105.41 0)
+		(property "Footprint" ""
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +5155,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 105.41 0)
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fba996c9-da31-42c3-ad03-18d699327576")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 238.76 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befbc42e-412a-41cc-be4b-56ae03bc6dcd")
+		(property "Reference" "D3"
+			(at 241.3 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Diode"
+			(at 241.3 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +5231,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 223.52 105.41 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +5240,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 223.52 105.41 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +5249,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 105.41 0)
+			(at 238.76 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,8 +5273,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 170.18 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2d183f3-da0a-43cd-a761-87ecd5d86830")
+		(property "Reference" "#PWR09"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945c6c06-1275-4e42-9102-8010c01f25d5")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 220.98 99.06 0)
+		(at 236.22 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4488,7 +5349,7 @@
 		(fields_autoplaced yes)
 		(uuid "d228c902-9083-4628-b401-2677ab16f12b")
 		(property "Reference" "S3"
-			(at 220.98 91.44 0)
+			(at 236.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +5357,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 220.98 93.98 0)
+			(at 236.22 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 220.98 99.06 0)
+			(at 236.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +5374,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 99.06 0)
+			(at 236.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +5383,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 220.98 99.06 0)
+			(at 236.22 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +5408,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 198.12 105.41 90)
+		(at 213.36 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4556,7 +5417,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2345b4f-eafb-4124-8ebb-4743c846445a")
 		(property "Reference" "D1"
-			(at 200.66 104.1399 90)
+			(at 215.9 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +5426,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 200.66 106.6799 90)
+			(at 215.9 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +5435,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 198.12 105.41 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +5444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 105.41 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +5453,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 198.12 105.41 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +5462,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 198.12 105.41 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +5471,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 105.41 0)
+			(at 213.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5496,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 116.84 144.78 0)
+		(at 154.94 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4644,7 +5505,7 @@
 		(fields_autoplaced yes)
 		(uuid "d384fda6-4eb7-4ae2-b641-a544f6af52e1")
 		(property "Reference" "D17"
-			(at 128.27 138.4614 0)
+			(at 166.37 101.6314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +5513,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 128.27 141.0014 0)
+			(at 166.37 104.1714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +5521,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 118.11 152.4 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +5531,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 119.38 154.305 0)
+			(at 157.48 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +5541,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 157.988 0)
+			(at 156.21 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 101.6 119.38 0)
+		(at 139.7 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4720,7 +5581,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8d15e52-237e-4957-ac62-ee2b2bd2ead6")
 		(property "Reference" "D13"
-			(at 113.03 113.0614 0)
+			(at 151.13 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +5589,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 113.03 115.6014 0)
+			(at 151.13 76.2314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +5597,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 102.87 127 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +5607,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 104.14 128.905 0)
+			(at 142.24 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +5617,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 102.87 132.588 0)
+			(at 140.97 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +5648,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 116.84 119.38 0)
+		(at 154.94 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +5657,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9c2199f-02c2-4558-8b25-6fa7e1089e75")
 		(property "Reference" "D14"
-			(at 128.27 113.0614 0)
+			(at 166.37 73.6914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5665,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 128.27 115.6014 0)
+			(at 166.37 76.2314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5673,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 118.11 127 0)
+			(at 156.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5683,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 119.38 128.905 0)
+			(at 157.48 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5693,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 132.588 0)
+			(at 156.21 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +5724,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 210.82 124.46 90)
+		(at 226.06 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4872,7 +5733,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbc36487-f049-4697-a8fe-cfa432b21568")
 		(property "Reference" "D5"
-			(at 213.36 123.1899 90)
+			(at 228.6 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5742,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 213.36 125.7299 90)
+			(at 228.6 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5751,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 210.82 124.46 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +5760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 124.46 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +5769,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 210.82 124.46 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5778,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 210.82 124.46 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5787,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 124.46 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,33 +5811,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 195.58 118.11 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 111.76 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee402aec-04fb-4189-8788-bc8144828b39")
-		(property "Reference" "S4"
-			(at 195.58 110.49 0)
+		(uuid "df3d06e7-5203-4b41-b3e5-6f9003b44ddc")
+		(property "Reference" "H3"
+			(at 40.64 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Keyswitch"
-			(at 195.58 113.03 0)
+		(property "Value" "MountingHole"
+			(at 40.64 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
-			(at 195.58 118.11 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 38.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5848,135 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 118.11 0)
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f9240a-cb80-44f0-8713-756d38e67be0")
+		(property "Reference" "#PWR012"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a82ed69-2767-485d-bae6-3fe2fcd60966")
+		)
+		(instances
+			(project "Keyboard RGB"
+				(path "/fe4e08c4-32e1-4cda-a9fd-6d6fbaef6e17"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 210.82 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee402aec-04fb-4189-8788-bc8144828b39")
+		(property "Reference" "S4"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5985,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 195.58 118.11 0)
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +6010,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:OLED_128x64")
-		(at 27.94 101.6 270)
+		(at 44.45 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5028,7 +6019,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef7c5f36-89e7-4c4b-86b3-30d91a202bcb")
 		(property "Reference" "J2"
-			(at 22.86 86.36 90)
+			(at 39.37 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +6027,7 @@
 			)
 		)
 		(property "Value" "OLED_128x64"
-			(at 22.86 88.9 90)
+			(at 39.37 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +6035,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:OLED_128x64"
-			(at 13.97 101.6 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 102.87 90)
+			(at 44.45 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +6053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 101.6 0)
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +6084,7 @@
 	)
 	(symbol
 		(lib_id "Soso_RGB LED 1.6x1.5mm:WS2812B")
-		(at 101.6 93.98 0)
+		(at 139.7 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5102,7 +6093,7 @@
 		(fields_autoplaced yes)
 		(uuid "f43a3e24-3ce6-44b8-9de4-0a6e5add832d")
 		(property "Reference" "D10"
-			(at 113.03 87.6614 0)
+			(at 151.13 47.0214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +6101,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 113.03 90.2014 0)
+			(at 151.13 49.5614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +6109,7 @@
 			)
 		)
 		(property "Footprint" "Soso:Soso_RGB LED 1.6x1.5mm"
-			(at 102.87 101.6 0)
+			(at 140.97 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +6119,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 104.14 103.505 0)
+			(at 142.24 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +6129,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 102.87 107.188 0)
+			(at 140.97 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
