@@ -6034,7 +6034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:OLED_128x64"
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 30.48 64.77 0)
 			(effects
 				(font
