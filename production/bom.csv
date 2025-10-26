@@ -1,8 +1,11 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0805,2,100nF,
 "D1, D2, D3, D4, D5, D6, D7, D8, D9",Diode_SOD-123,9,Diode,
 "D10, D11, D12, D13, D14, D15, D16, D17, D18",Soso_RGB LED 1.6x1.5mm,9,WS2812B,
 J2,JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical,1,OLED_128x64,
 R1,0805,1,100 R,
+"R2, R3",0805,2,10kR,
 "S1, S2, S3, S4, S5, S6, S7, S8, S9",MX_PCB_1.00u,9,Keyswitch,
 SW1,SW_PUSH_6mm_H4.3mm,1,Boot,
+SW2,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,RotaryEncoder_Switch_MP,
 U2,Arduino_Pro_Micro,1,Arduino_Pro_Micro,
